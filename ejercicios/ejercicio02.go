@@ -12,16 +12,20 @@ var err error
 
 func PideNumero() {
 	scanner := bufio.NewScanner(os.Stdin)
+	for {
+		fmt.Println("Ingrese un número :")
+		if scanner.Scan() {
+			numero, err = strconv.Atoi(scanner.Text())
+			if err != nil {
+				continue
+			} else {
+				break
+			}
 
-	fmt.Println("Ingrese el número :")
-	if scanner.Scan() {
-		numero, err = strconv.Atoi(scanner.Text())
-		if err != nil {
-			panic("El dato ingresado es incorrecto " + err.Error())
 		}
-		for i := 1; i < 11; i++ {
-			fmt.Printf("%d * %d = %d\n", numero, i, numero*i)
-		}
+	}
+	for i := 1; i < 11; i++ {
+		fmt.Printf("%d * %d = %d\n", numero, i, numero*i)
 	}
 
 }
