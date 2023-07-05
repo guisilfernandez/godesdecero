@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github-cursos/godesdecero/ejercicios"
+	"github-cursos/godesdecero/variables"
 )
 
 func main() {
-	//estado, texto := variables.ConviertoaTexto(1588)
-	//fmt.Println(estado)
-	//fmt.Println(texto)
+	estado, texto := variables.ConviertoaTexto(1588)
+	fmt.Println(estado)
+	fmt.Println(texto)
 
 	/*if os := runtime.GOOS; os == "Linux." || os == "OS X." || os == "darwin" {
 		fmt.Println("Esto no es Windows, esto es", os)
@@ -23,9 +23,13 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
-	valor, texto := ejercicios.ResultadosEjercicio01("1985")
+	valor, texto := ejercicios.ResultadosEjercicio01("50")
 	fmt.Println("Enviado", valor)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	//teclado.IngresoNumeros()
+	//iteraciones.Iterar()
+	//ejercicios.PideNumero()
 }
