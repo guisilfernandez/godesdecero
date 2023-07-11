@@ -1,6 +1,8 @@
 package main
 
-import "github-cursos/godesdecero/ejercicios"
+import (
+	"github-cursos/godesdecero/files"
+)
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -28,5 +30,9 @@ func main() {
 
 	//teclado.IngresoNumeros()
 	//iteraciones.Iterar()
-	ejercicios.PideNumero()
+	//ejercicios.PideNumero()
+
+	//fmt.Println(ejercicios.PideNumero())
+
+	files.LeoArchivo()
 }
