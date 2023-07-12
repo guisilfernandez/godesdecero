@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"github-cursos/godesdecero/ejercicios"
+	arreglosslices "github-cursos/godesdecero/arreglos_slices"
 )
 
 func main() {
@@ -36,7 +35,6 @@ func main() {
 	//fmt.Println(ejercicios.PideNumero())
 
 	//files.LeoArchivo()
-
-	fmt.Println(ejercicios.PideNumero())
-
+	//funciones.Exponencia(2)
+	arreglosslices.MuestroArreglos()
 }
