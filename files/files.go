@@ -55,7 +55,7 @@ func LeoArchivo() {
 
 	for scanner.Scan() {
 		registro := scanner.Text()
-		fmt.Println("> " + registro)
+		fmt.Println(">.< " + registro)
 	}
 	archivo.Close()
 }

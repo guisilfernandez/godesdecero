@@ -29,6 +29,6 @@ func PideNumero() string {
 		texto += fmt.Sprintf("%d * %d = %d \n", numero, i, numero*i)
 	}
 
-	return texto + "\n"
+	return texto + "Terminamos \n"
 
 }

@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github-cursos/godesdecero/files"
+	"fmt"
+	"github-cursos/godesdecero/ejercicios"
 )
 
 func main() {
@@ -34,5 +35,8 @@ func main() {
 
 	//fmt.Println(ejercicios.PideNumero())
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	fmt.Println(ejercicios.PideNumero())
+
 }
