@@ -1,7 +1,7 @@
 package main
 
 import (
-	arreglosslices "github-cursos/godesdecero/arreglos_slices"
+	"github-cursos/godesdecero/mapas"
 )
 
 func main() {
@@ -36,5 +36,6 @@ func main() {
 
 	//files.LeoArchivo()
 	//funciones.Exponencia(2)
-	arreglosslices.MuestroArreglos()
+	//arreglosslices.Capacidad()
+	mapas.MostrarMapas()
 }
